@@ -1,0 +1,25 @@
+.container-outer {
+  background-color: #e6e1d6;
+  height: 569px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  .container-inner {
+      width: 75%;
+    h2 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 42px;
+      line-height: 59px;
+    }
+    p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+.title {
+  color: #b88987;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 29px;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+
+  .product-item {
+    width: 430px;
+    height: 400px;
+    img {
+      width: 100%;
+    }
+    .name {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 21px;
+    }
+    .price {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 11px;
+      line-height: 21px;
+    }
+    .review {
+      margin-left: 150px;
+    }
+  }
+}
