@@ -1,0 +1,73 @@
+.container-fluid {
+  padding: 50px 15px;
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+.title {
+  color: #b88987;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 29px;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+
+  .product-item {
+    width: 430px;
+    img {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .name {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 21px;
+      line-height: 29px;
+      color: #b88987;
+      margin-bottom: 20px;
+
+    }
+    .date {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 11px;
+      line-height: 13px;
+      letter-spacing: 0.56px;
+      text-transform: uppercase;
+      color: #000000;
+      margin-bottom: 20px;
+
+    }
+    .text {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 21px;
+      color: #000000;
+      margin-bottom: 20px;
+
+    }
+    button {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 21px;
+      color: #ecb1b0;
+      background-color: transparent;
+      border: none;
+border-bottom: 1px solid#ecb1b0;
+    }
+  }
+}
