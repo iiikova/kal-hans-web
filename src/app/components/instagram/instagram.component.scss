@@ -1,0 +1,60 @@
+.container-fluid {
+  .container-inner {
+    padding: 50px 0;
+    text-align: center;
+    h2 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 44px;
+      text-align: center;
+      color: #b88987;
+    }
+    p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 21px;
+      color: #000000;
+      text-align: center;
+    }
+    button {
+      background: #e6e1d6;
+      border: 3px solid #e6e1d6;
+      box-sizing: border-box;
+      border-radius: 0px;
+      padding: 10px 45px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+    .posts {
+      display: flex;
+      .post-item {
+        cursor: pointer;
+        margin: 20px;
+        box-sizing: border-box;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 346px;
+        width: 346px;
+        background-image: url("../../../assets/images/free-from/Rectangle.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 12px;
+        p {
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 13px;
+          line-height: 21px;
+          color: #ffffff;
+          text-align: left;
+        }
+      }
+    }
+  }
+}

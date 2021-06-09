@@ -1,0 +1,46 @@
+.container-fluid {
+  padding: 100px 0;
+  background: #cfacad;
+  .container-inner {
+    h2 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 2rem;
+      line-height: 29px;
+      text-align: center;
+      color: #ffffff;
+    }
+    p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1rem;
+      line-height: 21px;
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 20px;
+    }
+    .search {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      input {
+        background: #f9f9f9;
+        border: 1px solid #bfbfbf;
+        box-sizing: border-box;
+        border-radius: 0px;
+        height: 44px;
+        width: 460px;
+      }
+      button {
+        background: #e6e1d6;
+        border: 3px solid #e6e1d6;
+        box-sizing: border-box;
+        border-radius: 0px;
+        height: 42.5px;
+        width: 156px;
+      }
+    }
+  }
+}
